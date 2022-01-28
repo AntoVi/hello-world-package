@@ -1,0 +1,17 @@
+{
+    "name": "antovi/hello-world-package",
+    "description": "A hello world composer private package test.",
+    "autoload": {
+        "psr-4": {
+            "Antovi\\HelloWorldPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AntoVi",
+            "email": "anthony.vivien@edu.itescia.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
